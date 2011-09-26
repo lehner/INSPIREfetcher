@@ -125,6 +125,7 @@ public class INSPIREfetcher implements EntryFetcher {
     
     public String constructUrl(String key) {
 	String identifier = "";
+
 	try {
 	    identifier = URLEncoder.encode(key, "UTF-8");
 	} catch (UnsupportedEncodingException e) {
@@ -134,7 +135,7 @@ public class INSPIREfetcher implements EntryFetcher {
 	    .append("/");
 	sb.append("search").append("?");
 	sb.append("ln=en&action_search=Search&sf=&so=d&rm=&rg=25&sc=0&of=hx&");
-	sb.append("p=find+");
+	sb.append("p=");
 	sb.append(identifier);
 	return sb.toString();
     }

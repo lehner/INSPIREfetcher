@@ -8,7 +8,7 @@
 
 	<property name="jabref.dir" value="../../jabref" />
 
-	<property name="version" value="0.1" />
+	<property name="version" value="0.2" />
 	<property name="jar" value="${build.lib}/${ant.project.name}-${version}.jar" />
 
 	<fileset id="pluginFileset" dir="." includes="plugin.xml" />
