@@ -13,3 +13,6 @@ Build instructions:
 Changelog: 
 
   * 2011-09-23 - V0.1 - Initial release.
+
+  * 2011-09-26 - V0.2 - Do not add leading "find" to search
+                        automatically.

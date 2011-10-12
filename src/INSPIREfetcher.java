@@ -118,7 +118,7 @@ class INSPIREBibtexFilterReader extends FilterReader {
 
 public class INSPIREfetcher implements EntryFetcher {
 
-    public static String inspireHost="inspirebeta.net";
+    public static String inspireHost="inspirehep.net";
 
     public INSPIREfetcher() {
     }
