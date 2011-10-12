@@ -134,7 +134,7 @@ public class INSPIREfetcher implements EntryFetcher {
 	StringBuffer sb = new StringBuffer("http://").append(inspireHost)
 	    .append("/");
 	sb.append("search").append("?");
-	sb.append("ln=en&action_search=Search&sf=&so=d&rm=&rg=25&sc=0&of=hx&");
+	sb.append("ln=en&action_search=Search&sf=&so=d&rm=&rg=100&sc=0&of=hx&");
 	sb.append("p=");
 	sb.append(identifier);
 	return sb.toString();
