@@ -16,3 +16,6 @@ Changelog:
 
   * 2011-09-26 - V0.2 - Do not add leading "find" to search
                         automatically.
+
+  * 2011-10-12 - V0.3 - New host inspirehep.net; Fetch up
+                        to 100 entries.
